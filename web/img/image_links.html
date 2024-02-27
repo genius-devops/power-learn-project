@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main {
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website! <br>Technology is the application of conceptual knowledge for achieving practical goals, especially in a reproducible way. The word technology can also mean the products resulting from such efforts, including both tangible tools such as utensils or machines, and intangible ones such as software. Technology plays a critical role in science, engineering, and everyday life.
+                Technological advancements have led to significant changes in society. The earliest known technology is the stone tool, used during prehistoric times, followed by the control of fire, which contributed to the growth of the human brain and the development of language during the Ice Age. The invention of the wheel in the Bronze Age allowed greater travel and the creation of more complex machines. More recent technological inventions, including the printing press, telephone, and the Internet, have lowered barriers to communication and ushered in the knowledge economy.
+                While technology contributes to economic development and improves human prosperity, it can also have negative impacts like pollution and resource depletion, and can cause social harms like technological unemployment resulting from automation. As a result, there are ongoing philosophical and political debates about the role and use of technology, the ethics of technology, and ways to mitigate its downsides.
+                :</p>
+            <a href="https://en.wikipedia.org/wiki/Technology" target="_blank">
+                <img src="img/tech.jpg" alt="Technology Image">
+            </a>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="grid-container">
+                <a href="/img/nature1.jpg" target="_blank">
+                    <img src="/img/nature1.jpg" alt="Nature Image 1">
+                </a>
+                <a href="/img/nature2.jpg" target="_blank">
+                    <img src="/img/nature2.jpg" alt="Nature Image 2">
+                </a>
+                <a href="/img/nature3.jpg" target="_blank">
+                    <img src="/img/nature3.jpg" alt="Nature Image 3">
+                </a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="https://example.com/food1" target="_blank"><img src="/img/food.jpg" width="300" alt="Food Image 1"><br> interesting chops</a></li>
+                <li><a href="https://example.com/food2" target="_blank"><img src="/img/balance diet.jpg" width="300" alt="Food Image 2"><br> balance diet</a></li>
+                <li><a href="https://example.com/food3" target="_blank"><img src="/img/berries.jpg" width="300" alt="Food Image 3"><br> berries</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
