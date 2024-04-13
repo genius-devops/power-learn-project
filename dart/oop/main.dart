@@ -1,5 +1,5 @@
-import '002camera.dart';
-import '02OOP.dart';
+import 'camera.dart';
+import 'ooop.dart';
 import 'interest.dart';
 
 void main() {
